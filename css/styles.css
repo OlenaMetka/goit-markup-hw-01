@@ -79,8 +79,6 @@ ul {
 .nav:focus,
 .connection:hover,
 .connection:focus,
-.location:hover,
-.location:focus,
 .mail:hover,
 .mail:focus,
 .phone:hover,
@@ -237,6 +235,11 @@ address {
 
 .button-secondary:hover,
 .button-secondary:focus {
+  color: var(--accent-text-color);
+  background-color: var(--accent-bgn-color);
+}
+
+.button-active {
   color: var(--accent-text-color);
   background-color: var(--accent-bgn-color);
 }
