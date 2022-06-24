@@ -59,8 +59,7 @@
     color: var(--focus-text-color);
     font-family: var(--secondary-font);
     margin: 25px 90px 25px 215px;
-    /* display: block; */
-    font-weight: var(--bold-font);
+        font-weight: var(--bold-font);
     width: 145px;
     font-size: 26px;
     line-height: 1.19;
@@ -74,8 +73,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     margin-right: 50px;
-    /* padding: 0px; */
-  }
+     }
   
   .nav:hover,
   .nav:focus,
@@ -105,21 +103,16 @@
   .connection-list {
     display: flex;
     margin-left: 280px;
-    /* margin:0px 215px 0px 280px; */
-    /* padding: 0px; */
-  }
+      }
   
   .connection {
-    /* color:var(--text-color); */
-    color: inherit;
+        color: inherit;
     font-size: var(--secondary-font-size);
     font-weight: var(--medium-font);
     line-height: 1.14;
     letter-spacing: 0.02em;
     margin-right: 50px;
-    /* padding: 32px 25px 32px 25px; */
-    /* 32px 280px;  */
-  }
+     }
   
   .nav.current {
     color: var(--focus-text-color);
@@ -158,18 +151,8 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     margin: 0px 700px 200px;
-    /* display: block; */
-    /* align-items: center; */
-    /* text-align: center; */
-  }
-  /* .button-order{
-              margin:30px 700px 200px;
-              align-items: center;
-      justify-content: center;
-              
-             
-          } */
-  
+     }
+    
   .titlle-peculiarities,
   .portfolio,
   .samples {
@@ -185,12 +168,10 @@
   }
   
   .peculiarities-text {
-    /* font-weight: var(--normal-font); */
-    font-size: var(--secondary-font-size);
+        font-size: var(--secondary-font-size);
     line-height: 1.71;
     letter-spacing: 0.03em;
-    /* color: var(--text-color); */
-  }
+   }
   
   /* h2 */
   .section-title {
@@ -206,17 +187,14 @@
     font-weight: var(--medium-font);
     font-size: var(--primary-font-size);
     line-height: 1.19;
-    /* text-align: center; */
-    letter-spacing: 0.03em;
+       letter-spacing: 0.03em;
     color: var(--tittle-text-color);
   }
   
   .job-title {
-    /* font-weight: var(--normal-font); */
-    font-size: var(--primary-font-size);
+        font-size: var(--primary-font-size);
     line-height: 1.19;
-    /* text-align: center; */
-    letter-spacing: 0.03em;
+       letter-spacing: 0.03em;
     color: var(--text-color);
   }
   
@@ -264,8 +242,7 @@
   }
   
   .filter-item {
-    /* font-style: normal; */
-    font-weight: 700;
+      font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -273,8 +250,6 @@
   }
   
   .text {
-    /* font-style: normal;
-      font-weight: 400; */
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
