@@ -45,36 +45,58 @@
     </header>
     <main>
       <!-- hero -->
-      <section class="hero">
+      <section class="grey-bg">
+        <div class="overlay">
+          <div class="container">
+            <h1 class="hero-tittle">Эффективные решения для вашего бизнеса</h1>
+            <button class="button-order" type="button">Заказать услугу</button>
+          </div>
+          <!-- /.container -->
+        </div>
+      </section>
+
+      <!-- <section class="hero">
         <h1 class="hero-tittle">Эффективные решения для вашего бизнеса</h1>
         <button class="button-order" type="button">Заказать услугу</button>
-      </section>
+      </section> -->
       <!-- c -->
       <section>
         <h2 class="titlle-peculiarities">Особенности</h2>
         <ul class="peculiarities-list">
-          <li>
+          <li class="peculiarities-paragraph">
+            <img
+              src="./images/Group 1.png"
+              alt="спутниковая тарелка"
+              width="270"
+            />
             <h3 class="peculiarities-tittle">Внимание к деталям</h3>
             <p class="peculiarities-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="peculiarities-paragraph">
+            <img src="./images/Group 2.png" alt="часы" width="270" />
             <h3 class="peculiarities-tittle">Пунктуальность</h3>
             <p class="peculiarities-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="peculiarities-paragraph">
+            <img
+              src="./images/Group 3.png"
+              alt="диаграмма в ноутбуке"
+              width="270"
+            />
             <h3 class="peculiarities-tittle">Планирование</h3>
             <p class="peculiarities-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="peculiarities-paragraph">
+            <img src="./images/Group 4.png" alt="космонавт" width="270" />
             <h3 class="peculiarities-tittle">Современные технологии</h3>
             <p class="peculiarities-text">
               Значимость этих проблем настолько очевидна, что реализация
@@ -86,8 +108,8 @@
       <!-- examples -->
       <section>
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul>
-          <li>
+        <ul class="examples">
+          <li class="examples-item">
             <a href="#">
               <img
                 src="./images/box1.jpg"
@@ -96,12 +118,12 @@
               />
             </a>
           </li>
-          <li>
+          <li class="examples-item">
             <a href="#">
               <img src="./images/box2.jpg" alt="ноутбук" width="370" />
             </a>
           </li>
-          <li>
+          <li class="examples-item">
             <a href="#">
               <img src="./images/box3.jpg" alt="планшет" width="370" />
             </a>
@@ -109,10 +131,10 @@
         </ul>
       </section>
       <!-- team -->
-      <section>
+      <section class="our-team">
         <h2 class="section-title">Наша команда</h2>
-        <ul>
-          <li>
+        <ul class="team">
+          <li class="worker">
             <a href="#">
               <img
                 src="./images/photo1.jpg"
@@ -122,8 +144,42 @@
               <h3 class="subtitle">Игорь Демьяненко</h3>
               <p lang="en" class="job-title">Product Designer</p>
             </a>
+            <ul class="social-networks">
+              <li class="social-networks-link">
+                <a href="#">
+                  <img
+                    src="./images/insta.png"
+                    alt="иконка инстаграмма"
+                    width="44"
+                  />
+                </a>
+              </li>
+              <li class="social-networks-link">
+                <a href="#">
+                  <img
+                    src="./images/twiter.png"
+                    alt="иконка twitter"
+                    width="44"
+                  />
+                </a>
+              </li>
+              <li class="social-networks-link">
+                <a href="#">
+                  <img src="./images/fb.png" alt="иконка facebook" width="44" />
+                </a>
+              </li>
+              <li class="social-networks-link">
+                <a href="#">
+                  <img
+                    src="./images/linkedin.png"
+                    alt="иконка linkedin"
+                    width="44"
+                  />
+                </a>
+              </li>
+            </ul>
           </li>
-          <li>
+          <li class="worker">
             <a href="#">
               <img
                 src="./images/photo2.jpg"
@@ -133,8 +189,42 @@
               <h3 class="subtitle">Ольга Репина</h3>
               <p lang="en" class="job-title">Frontend Developer</p>
             </a>
+            <ul class="social-networks">
+              <li class="social-networks-link">
+                <a href="#">
+                  <img
+                    src="./images/insta.png"
+                    alt="иконка инстаграмма"
+                    width="44"
+                  />
+                </a>
+              </li>
+              <li class="social-networks-link">
+                <a href="#">
+                  <img
+                    src="./images/twiter.png"
+                    alt="иконка twitter"
+                    width="44"
+                  />
+                </a>
+              </li>
+              <li class="social-networks-link">
+                <a href="#">
+                  <img src="./images/fb.png" alt="иконка facebook" width="44" />
+                </a>
+              </li>
+              <li class="social-networks-link">
+                <a href="#">
+                  <img
+                    src="./images/linkedin.png"
+                    alt="иконка linkedin"
+                    width="44"
+                  />
+                </a>
+              </li>
+            </ul>
           </li>
-          <li>
+          <li class="worker">
             <a href="#">
               <img
                 src="./images/photo3.jpg"
@@ -144,8 +234,42 @@
               <h3 class="subtitle">Николай Тарасов</h3>
               <p lang="en" class="job-title">Marketing</p>
             </a>
+            <ul class="social-networks">
+              <li class="social-networks-link">
+                <a href="#">
+                  <img
+                    src="./images/insta.png"
+                    alt="иконка инстаграмма"
+                    width="44"
+                  />
+                </a>
+              </li>
+              <li class="social-networks-link">
+                <a href="#">
+                  <img
+                    src="./images/twiter.png"
+                    alt="иконка twitter"
+                    width="44"
+                  />
+                </a>
+              </li>
+              <li class="social-networks-link">
+                <a href="#">
+                  <img src="./images/fb.png" alt="иконка facebook" width="44" />
+                </a>
+              </li>
+              <li class="social-networks-link">
+                <a href="#">
+                  <img
+                    src="./images/linkedin.png"
+                    alt="иконка linkedin"
+                    width="44"
+                  />
+                </a>
+              </li>
+            </ul>
           </li>
-          <li>
+          <li class="worker">
             <a href="#">
               <img
                 src="./images/photo4.jpg"
@@ -155,15 +279,51 @@
               <h3 class="subtitle">Михаил Ермаков</h3>
               <p lang="en" class="job-title">UI Designer</p>
             </a>
+            <ul class="social-networks">
+              <li class="social-networks-link">
+                <a href="#">
+                  <img
+                    src="./images/insta.png"
+                    alt="иконка инстаграмма"
+                    width="44"
+                  />
+                </a>
+              </li>
+              <li class="social-networks-link">
+                <a href="#">
+                  <img
+                    src="./images/twiter.png"
+                    alt="иконка twitter"
+                    width="44"
+                  />
+                </a>
+              </li>
+              <li class="social-networks-link">
+                <a href="#">
+                  <img src="./images/fb.png" alt="иконка facebook" width="44" />
+                </a>
+              </li>
+              <li class="social-networks-link">
+                <a href="#">
+                  <img
+                    src="./images/linkedin.png"
+                    alt="иконка linkedin"
+                    width="44"
+                  />
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </section>
     </main>
     <!-- footer -->
     <footer>
-      <a href="#" class="logo">Web<span class="logo-bottom">Studio</span></a>
+      <a href="#" class="logo-footer"
+        >Web<span class="logo-bottom">Studio</span></a
+      >
       <address>
-        <ul>
+        <ul class="footer-location">
           <li>
             <a href="https://goo.gl/maps/WAwS4swjxQ3E5mRq5" class="location"
               >г. Киев, пр-т Леси Украинки, 26</a

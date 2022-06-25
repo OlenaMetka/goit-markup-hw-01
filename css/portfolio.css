@@ -1,0 +1,76 @@
+/* portfolio */
+
+
+.button-list{
+display: flex;
+justify-content: center;
+margin: 94px 0px 40px 0px;
+}
+
+
+.button-secondary{
+    padding: 6px 22px;
+margin-right: 8px;
+
+}
+
+.button-list li:last-child{
+    margin-right: -8px;
+}
+
+.button-secondary {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--tittle-text-color);
+    cursor: pointer;
+    background-color: #F5F4FA;
+   border-radius: 4px;
+  }
+  
+  .button-secondary:hover,
+  .button-secondary:focus {
+    color: var(--accent-text-color);
+    background-color: var(--accent-bgn-color);
+  }
+  
+  .button-active {
+    color: var(--accent-text-color);
+    background-color: var(--accent-bgn-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+  
+  .examples-job{
+display: flex;
+flex-wrap: wrap;
+margin: 20px 0px 95px 215px;
+
+  }
+
+  .filter-item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--tittle-text-color);
+    padding: 20px 25px 5px;
+    
+  }
+  
+.job-points{
+  margin-right: 30px ;
+  margin-top: 30px;
+  border: 1px solid #EEEEEE
+
+}
+  .text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    padding: 0px 25px 20px;
+  }
+ 
